@@ -63,4 +63,7 @@ void main(int argc, char* argv[]) {
 		output_node = output_node->prev_node;
 	}
 	list.pop_all();
+	if (interface) {
+		system("pause");
+	}
 }
