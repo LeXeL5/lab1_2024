@@ -26,7 +26,8 @@ struct stack {
 		return count;
 	}
 	void pop_all() {
-		for (int i = 0; i < size(); i++) {
+		int temp = size();
+		for (int i = 0; i < temp; i++) {
 			pop_back();
 		}
 	}
